@@ -4,16 +4,21 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
+import Pagina404 from "./paginas/Pagina404";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/sobre">
           <Sobre />
+        </Route>
+        <Route>
+          {/* Fica como página padrão caso os outros componentes não correspondam a url */}
+          <Pagina404 />
         </Route>
       </Switch>
     </Router>
