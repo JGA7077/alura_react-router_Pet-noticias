@@ -14,7 +14,7 @@ const ListaCategorias = () => {
       {
         categorias.map((categoria) => {
           return(
-            <Link to={`categoria/${categoria.id}`} key={`${categoria}-link`}>
+            <Link to={`/categoria/${categoria.id}`}>
               <li key={`${categoria}-li`} className={`lista-categorias__categoria lista-categorias__categoria--${categoria.id}`}>
                 {categoria.nome}
               </li>
