@@ -14,16 +14,16 @@ function App() {
     <Router>
       <Cabecalho />
       <Switch>
-        <Route exact path="alura_react-router_Pet-noticias/">
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path="alura_react-router_Pet-noticias/sobre">
+        <Route path="/sobre">
           <Sobre />
         </Route>
-        <Route path="alura_react-router_Pet-noticias/categoria/:id">
+        <Route path="/categoria/:id">
           <Categoria />
         </Route>
-        <Route path="alura_react-router_Pet-noticias/posts/:id">
+        <Route path="/posts/:id">
           <Post />
         </Route>
         <Route>
