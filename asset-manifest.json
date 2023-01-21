@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/alura_react-router_Pet-noticias/static/css/main.4e546b4a.chunk.css",
-    "main.js": "/alura_react-router_Pet-noticias/static/js/main.4b66b2d6.chunk.js",
-    "main.js.map": "/alura_react-router_Pet-noticias/static/js/main.4b66b2d6.chunk.js.map",
-    "runtime-main.js": "/alura_react-router_Pet-noticias/static/js/runtime-main.8dd6e95a.js",
-    "runtime-main.js.map": "/alura_react-router_Pet-noticias/static/js/runtime-main.8dd6e95a.js.map",
-    "static/js/2.7ee7ab66.chunk.js": "/alura_react-router_Pet-noticias/static/js/2.7ee7ab66.chunk.js",
-    "static/js/2.7ee7ab66.chunk.js.map": "/alura_react-router_Pet-noticias/static/js/2.7ee7ab66.chunk.js.map",
-    "static/js/3.86d0326c.chunk.js": "/alura_react-router_Pet-noticias/static/js/3.86d0326c.chunk.js",
-    "static/js/3.86d0326c.chunk.js.map": "/alura_react-router_Pet-noticias/static/js/3.86d0326c.chunk.js.map",
+    "main.css": "/alura_react-router_Pet-noticias/static/css/main.c720447e.css",
+    "main.js": "/alura_react-router_Pet-noticias/static/js/main.8276fcc4.js",
+    "static/js/377.152ecdcf.chunk.js": "/alura_react-router_Pet-noticias/static/js/377.152ecdcf.chunk.js",
+    "static/media/doguito404.svg": "/alura_react-router_Pet-noticias/static/media/doguito404.1a2ea648e55f624012d83c6ff066006f.svg",
+    "static/media/doguito.svg": "/alura_react-router_Pet-noticias/static/media/doguito.3541f9d895bc412844a5035a020012f9.svg",
     "index.html": "/alura_react-router_Pet-noticias/index.html",
-    "static/css/main.4e546b4a.chunk.css.map": "/alura_react-router_Pet-noticias/static/css/main.4e546b4a.chunk.css.map",
-    "static/js/2.7ee7ab66.chunk.js.LICENSE.txt": "/alura_react-router_Pet-noticias/static/js/2.7ee7ab66.chunk.js.LICENSE.txt",
-    "static/media/doguito.3541f9d8.svg": "/alura_react-router_Pet-noticias/static/media/doguito.3541f9d8.svg",
-    "static/media/doguito404.1a2ea648.svg": "/alura_react-router_Pet-noticias/static/media/doguito404.1a2ea648.svg",
-    "static/media/cabecalho.css": "/alura_react-router_Pet-noticias/static/media/menu.bcbef95e.svg"
+    "static/media/menu.svg": "/alura_react-router_Pet-noticias/static/media/menu.bcbef95ed1950afeb4b4.svg",
+    "main.c720447e.css.map": "/alura_react-router_Pet-noticias/static/css/main.c720447e.css.map",
+    "main.8276fcc4.js.map": "/alura_react-router_Pet-noticias/static/js/main.8276fcc4.js.map",
+    "377.152ecdcf.chunk.js.map": "/alura_react-router_Pet-noticias/static/js/377.152ecdcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8dd6e95a.js",
-    "static/js/2.7ee7ab66.chunk.js",
-    "static/css/main.4e546b4a.chunk.css",
-    "static/js/main.4b66b2d6.chunk.js"
+    "static/css/main.c720447e.css",
+    "static/js/main.8276fcc4.js"
   ]
 }
