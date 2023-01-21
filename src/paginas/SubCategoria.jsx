@@ -5,7 +5,7 @@ import ListaPost from '../components/ListaPost';
 const SubCategoria = () => {
   const {subcategoria} = useParams()
   return(
-    <ListaPost url={`/posts?subcategoria=${subcategoria}`} />
+    <ListaPost url={`/posts?subcategoria=${subcategoria}`} postsParaListar={'subcategoria'} />
   )
 }
 

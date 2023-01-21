@@ -6,16 +6,19 @@ import "../assets/css/blog.css";
 import ListaCategorias from "../components/ListaCategorias";
 import ListaPost from "../components/ListaPost";
 import SubCategoria from "./SubCategoria";
+import categorias from "../api/categories";
 
 const Categoria = () => {
   const { id } = useParams();
   const { url, path } = useRouteMatch();
-  console.log({ url: url, path: path });
   const [subcategorias, setSubCategorias] = useState([]);
   useEffect(() => {
-    busca(`/categorias/${id}`, (categoria) => {
-      setSubCategorias(categoria.subcategorias);
-    });
+    // busca por subcategorias
+    // busca(`/categorias/${id}`, (categoria) => {
+    //   setSubCategorias(categoria.subcategorias);
+    // });
+    const getCategory = categorias.find(category => category.id === id)
+    setSubCategorias(getCategory.subcategorias)
   }, [id]);
   return (
     <>
@@ -33,7 +36,7 @@ const Categoria = () => {
       </ul>
       <Switch>
         <Route exact path={`${path}/`}>
-          <ListaPost url={`/posts?categoria=${id}`} />
+          <ListaPost url={`/posts?categoria=${id}`} postsParaListar={'categoria'} />
         </Route>
         <Route path={`${path}/:subcategoria`}>
           <SubCategoria />
