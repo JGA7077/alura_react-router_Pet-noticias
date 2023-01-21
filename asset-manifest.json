@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alura_react-router_Pet-noticias/static/css/main.4e546b4a.chunk.css",
-    "main.js": "/alura_react-router_Pet-noticias/static/js/main.03232fe1.chunk.js",
-    "main.js.map": "/alura_react-router_Pet-noticias/static/js/main.03232fe1.chunk.js.map",
+    "main.js": "/alura_react-router_Pet-noticias/static/js/main.4b66b2d6.chunk.js",
+    "main.js.map": "/alura_react-router_Pet-noticias/static/js/main.4b66b2d6.chunk.js.map",
     "runtime-main.js": "/alura_react-router_Pet-noticias/static/js/runtime-main.8dd6e95a.js",
     "runtime-main.js.map": "/alura_react-router_Pet-noticias/static/js/runtime-main.8dd6e95a.js.map",
     "static/js/2.7ee7ab66.chunk.js": "/alura_react-router_Pet-noticias/static/js/2.7ee7ab66.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.8dd6e95a.js",
     "static/js/2.7ee7ab66.chunk.js",
     "static/css/main.4e546b4a.chunk.css",
-    "static/js/main.03232fe1.chunk.js"
+    "static/js/main.4b66b2d6.chunk.js"
   ]
 }
