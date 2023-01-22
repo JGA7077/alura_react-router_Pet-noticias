@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Cabecalho />
       <Switch>
-        <Route exact path="/">
+        <Route path="/alura_react-router_Pet-noticias">
           <Home />
         </Route>
         <Route path="/sobre">
